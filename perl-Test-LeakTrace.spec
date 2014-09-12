@@ -67,7 +67,6 @@ rm -rf $RPM_BUILD_ROOT
 %{perl_vendorarch}/Test/LeakTrace.pm
 %{perl_vendorarch}/Test/LeakTrace
 %dir %{perl_vendorarch}/auto/Test/LeakTrace
-%{perl_vendorarch}/auto/Test/LeakTrace/LeakTrace.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/Test/LeakTrace/LeakTrace.so
 %{_mandir}/man3/Test::LeakTrace*.3pm*
 %{_examplesdir}/%{name}-%{version}
