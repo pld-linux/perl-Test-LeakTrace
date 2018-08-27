@@ -9,7 +9,7 @@ Summary:	Test::LeakTrace - tracing memory leaks
 Summary(pl.UTF-8):	Test::LeakTrace - śledzenie wycieków pamięci
 Name:		perl-Test-LeakTrace
 Version:	0.16
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
