@@ -4,7 +4,6 @@
 #
 %define		pdir	Test
 %define		pnam	LeakTrace
-%include	/usr/lib/rpm/macros.perl
 Summary:	Test::LeakTrace - tracing memory leaks
 Summary(pl.UTF-8):	Test::LeakTrace - śledzenie wycieków pamięci
 Name:		perl-Test-LeakTrace
