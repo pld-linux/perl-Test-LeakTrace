@@ -7,16 +7,17 @@
 Summary:	Test::LeakTrace - tracing memory leaks
 Summary(pl.UTF-8):	Test::LeakTrace - śledzenie wycieków pamięci
 Name:		perl-Test-LeakTrace
-Version:	0.16
-Release:	5
+Version:	0.17
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Test/Test-LeakTrace-%{version}.tar.gz
-# Source0-md5:	d58f3e0fed32df8255787a77d7d87641
-URL:		http://search.cpan.org/dist/Test-LeakTrace/
+# Source0-md5:	afdb2cc6be0807cb635fb601a004d522
+URL:		https://metacpan.org/release/Test-LeakTrace
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
+BuildRequires:	rpmbuild(macros) >= 1.745
 %if %{with tests}
 BuildRequires:	perl(Exporter) >= 5.57
 BuildRequires:	perl-Test-Simple >= 0.62
