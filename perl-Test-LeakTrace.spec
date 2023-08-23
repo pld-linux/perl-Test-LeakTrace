@@ -1,6 +1,6 @@
 #
 # Conditional build:
-%bcond_without	tests		# do not perform "make test"
+%bcond_without	tests	# unit tests
 #
 %define		pdir	Test
 %define		pnam	LeakTrace
@@ -14,7 +14,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Test/Test-LeakTrace-%{version}.tar.gz
 # Source0-md5:	afdb2cc6be0807cb635fb601a004d522
-URL:		https://metacpan.org/release/Test-LeakTrace
+URL:		https://metacpan.org/dist/Test-LeakTrace
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	rpmbuild(macros) >= 1.745
